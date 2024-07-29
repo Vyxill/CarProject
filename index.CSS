@@ -262,7 +262,7 @@ header>nav>button {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    align-self: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -289,6 +289,12 @@ header>nav>button {
     height: 183px;
     width: 319.5px;
     overflow: hidden;
+}
+
+.Overlay>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .CarImg {
@@ -332,6 +338,17 @@ header>nav>button {
 .features {
     display: flex;
     gap: 16px;
+    color: #141414;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.features>span>img {
+  margin-right: 4px;  
 }
 
 .Tag {
@@ -358,4 +375,9 @@ header>nav>button {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+}
+
+.Icon2 {
+    width: 16px;
+    height: 16px;
 }
