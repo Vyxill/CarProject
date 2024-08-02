@@ -513,7 +513,7 @@ header>nav>button {
 }
 
 #Reviews main {
-    display: flex; 
+    display: flex;
     gap: 30px;
 }
 
@@ -555,4 +555,138 @@ header>nav>button {
     padding: 50px 160px;
     background: #FFE4C6;
     margin: 80px 0px;
+}
+
+/* Footer section */
+
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    ;
+    padding-bottom: 40px;
+}
+
+.navbar-left {
+    color: #FE8400;
+    font-family: "Arial Black";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Send Us a Msg Section */
+
+#ContactUsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: linear-gradient(to top, black 0px, black 395px, white 395px, white 100%)
+}
+
+#ContactUsSection>h1 {
+    color: #000000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#ContactUsSection>main {
+    display: flex;
+    padding: 40px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    background-color: #fbfbfb;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(186,160,205,255);
+}
+
+#ContactUsSection input {
+    display: flex;
+    width: 405px;
+    height: 60px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+}
+
+#ContactUsSection Button {
+    display: flex;
+    width: 256px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#ContactUsSection form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#ContactUsSection aside {
+    width: 451px;
+    height: 462px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#ContactUsSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ContactUsSection .Bottom {
+    display: flex;
+    width: 405px;
+    height: 122px;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #C4C4C4;
+    background: #FBFBFB;
+}
+
+#ContactUsSection>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#ContactUsSection>p>span {
+    color: #FE8400;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
