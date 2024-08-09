@@ -19,6 +19,27 @@ button {
     font-size: 16px;
 }
 
+button:hover {
+    background-color: #ffe100 !important;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#NavigationBar>a::before {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #FE8400;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.8s;
+
+}
+
+#NavigationBar>a:hover::before {
+    width: 100%;
+}
+
 img {
     width: 100px;
 }
@@ -26,7 +47,6 @@ img {
 /* Header stuff */
 
 header {
-    /* height: 40px; */
     padding-top: 25px !important;
     padding-bottom: 25px !important;
     display: flex;
@@ -58,6 +78,7 @@ header>nav>a {
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+    position: relative;
 }
 
 
@@ -619,7 +640,7 @@ header>nav>button {
     gap: 87px;
     background-color: #fbfbfb;
     border-radius: 4px;
-    box-shadow: 0px 0px 10px 0px rgba(186,160,205,255);
+    box-shadow: 0px 0px 10px 0px rgba(186, 160, 205, 255);
 }
 
 #ContactUsSection input {
@@ -689,4 +710,40 @@ header>nav>button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: fit-content;
+    }
+
+    header>nav {
+        display: none;
+    }
+
+    #Hero_Section>span {
+        display: none;
+    }
+
+    #Hero_Section>img {
+        display: none;
+    }
+
+    #Hero_Section>div {
+        display: inline-flex;
+        padding: 32px 32px 32px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        background: rgba(0, 0, 0, 0.15);
+        width: 100%
+    }
+
+    #OurCars #CarContainer {
+        flex-direction: column;
+        align-items: center;
+   }
+   #OurCars {
+    width: 100%S;
+   }
 }
