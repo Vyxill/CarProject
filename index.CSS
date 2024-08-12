@@ -835,6 +835,13 @@ header>nav>button {
         padding-bottom: 10px;
     }
 
+    #Reviews .testimonial {
+        width: 100%;
+    }
+
+    #ContactUsSection>main {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -922,6 +929,10 @@ header>nav>button {
 
     #ContactUsSection aside {
         display: none;
+    }
+
+    #ContactUsSection>main {
+        width: 100%;
     }
 
     #BookNowSection span {
