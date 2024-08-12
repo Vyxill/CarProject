@@ -1,0 +1,131 @@
+@media (max-width: 600px) {
+    body {
+        height: fit-content;
+    }
+
+    header>nav {
+        display: none;
+    }
+
+    #Hero_Section>span {
+        display: none;
+    }
+
+    #Hero_Section>img {
+        display: none;
+    }
+
+    #Hero_Section>div h2,
+    #Hero_Section>div p {
+        color: #575757;
+    }
+
+    #Hero_Section {
+        position: relative;
+        height: fit-content;
+        margin: 40px 0px;
+    }
+
+    #Hero_Section>div {
+        justify-content: center;
+        text-align: center;
+        display: inline-flex;
+        padding: 12px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        background: rgba(0, 0, 0, 0.15);
+        width: 100%
+    }
+
+    #OurCars #CarContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #OurCars {
+        width: 100%S;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    #AboutUsSection>div>img {
+
+        width: 100%;
+        border-radius: 4px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    }
+
+    #BookNowSection>form {
+        padding: 20px;
+        height: fit-content;
+    }
+
+    #BookNowSection {
+        margin: 40px 0;
+    }
+
+    #Bottom {
+        flex-direction: column;
+    }
+
+    #Reviews main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #ReviewSec {
+        flex-direction: column;
+    }
+
+    #ContactUsSection aside {
+        display: none;
+    }
+
+    #BookNowSection span {
+        display: flex;
+        width: 320px;
+    }
+
+    #AboutUsSection {
+        margin: 40px 0;
+    }
+
+    #AboutUsSection>div {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    #ContactUsSection input {
+        display: flex;
+        width: 205px;
+        height: 60px;
+        padding: 4px 8px;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #ContactUsSection .Bottom {
+        display: flex;
+        width: 205px;
+        height: 61px;
+        padding: 4px 8px;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #Reviews .testimonial {
+        width: 100%;
+    }
+
+    #ContactUsSection>main {
+        width: 100%;
+    }
+}
