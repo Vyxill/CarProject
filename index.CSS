@@ -729,12 +729,25 @@ header>nav>button {
         display: none;
     }
 
+    #Hero_Section>div h2,
+    #Hero_Section>div p {
+        color: #575757;
+    }
+
+    #Hero_Section {
+        position: relative;
+        height: fit-content;
+        margin: 40px 0px;
+    }
+
     #Hero_Section>div {
+        justify-content: center;
+        text-align: center;
         display: inline-flex;
-        padding: 32px 32px 32px 0px;
+        padding: 12px;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
+        align-items: center;
+        gap: 12px;
         background: rgba(0, 0, 0, 0.15);
         width: 100%
     }
@@ -742,8 +755,61 @@ header>nav>button {
     #OurCars #CarContainer {
         flex-direction: column;
         align-items: center;
-   }
-   #OurCars {
-    width: 100%S;
-   }
+    }
+
+    #OurCars {
+        width: 100%S;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    #AboutUsSection>div>img {
+
+        width: 100%;
+        border-radius: 4px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    }
+
+    #BookNowSection>form {
+        padding: 20px;
+        height: fit-content;
+    }
+
+    #BookNowSection {
+        margin: 40px 0;
+    }
+
+    #Bottom {
+        flex-direction: column;
+    }
+
+    #Reviews main {
+        flex-direction: column;
+    }
+
+    #ReviewSec {
+        flex-direction: column;
+    }
+
+    #ContactUsSection aside {
+        display: none;
+    }
+
+    #BookNowSection span {
+        display: flex;
+        width: 320px;
+    }
+
+    #AboutUsSection {
+        margin: 40px 0;
+    }
+
+    #AboutUsSection>div {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
 }
